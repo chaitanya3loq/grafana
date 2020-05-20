@@ -34,7 +34,7 @@ addDecorator(withPaddedStory);
 addParameters({
   info: {},
   darkMode: {
-    dark: GrafanaDark,
+    dark: GrafanaLight,
     light: GrafanaLight,
   },
   options: {

@@ -12,7 +12,7 @@ import (
 
 type AppPluginCss struct {
 	Light string `json:"light"`
-	Dark  string `json:"dark"`
+	Dark  string `json:"light"`
 }
 
 type AppPlugin struct {

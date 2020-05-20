@@ -450,7 +450,7 @@
           "step": 20
         }
       ],
-      "title": "Grafana version",
+      "title": "3LOQ-Habitual version",
       "transform": "timeseries_to_rows",
       "type": "table"
     },

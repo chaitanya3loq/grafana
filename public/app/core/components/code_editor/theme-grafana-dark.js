@@ -5,7 +5,7 @@ ace.define('ace/theme/grafana-dark', ['require', 'exports', 'module', 'ace/lib/d
 ) {
   'use strict';
 
-  exports.isDark = true;
+  exports.isDark = false;
   exports.cssClass = 'gf-code-dark';
   exports.cssText =
     '.gf-code-dark .ace_gutter {\

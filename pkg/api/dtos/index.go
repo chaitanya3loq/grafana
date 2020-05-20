@@ -22,7 +22,7 @@ type IndexViewData struct {
 
 type PluginCss struct {
 	Light string `json:"light"`
-	Dark  string `json:"dark"`
+	Dark  string `json:"light"`
 }
 
 const (

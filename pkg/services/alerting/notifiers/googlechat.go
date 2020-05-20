@@ -172,7 +172,7 @@ func (gcn *GoogleChatNotifier) Notify(evalContext *alerting.EvalContext) error {
 		Buttons: []button{
 			{
 				TextButton: textButton{
-					Text: "OPEN IN GRAFANA",
+					Text: "OPEN IN 3LOQ-Habitual",
 					OnClick: onClick{
 						OpenLink: openLink{
 							URL: ruleURL,
@@ -186,7 +186,7 @@ func (gcn *GoogleChatNotifier) Notify(evalContext *alerting.EvalContext) error {
 	// add text paragraph widget for the build version and timestamp
 	widgets = append(widgets, textParagraphWidget{
 		Text: text{
-			Text: "Grafana v" + setting.BuildVersion + " | " + (time.Now()).Format(time.RFC822),
+			Text: "3LOQ-Habitual v" + setting.BuildVersion + " | " + (time.Now()).Format(time.RFC822),
 		},
 	})
 

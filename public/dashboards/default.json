@@ -36,7 +36,7 @@
           "mode": "html",
           "content": "<br/>\n\n<div class=\"row-fluid\">\n  <div class=\"span6\">\n    <ul>\n      <li>\n        <a href=\"#\" target=\"_blank\">Configuration</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">Troubleshooting</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">Support</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">Getting started</a>  (Must read!)\n      </li>\n    </ul>\n  </div>\n  <div class=\"span6\">\n    <ul>\n      <li>\n        <a href=\"#\" target=\"_blank\">Graphing</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">Annotations</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">Graphite</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">InfluxDB</a>\n      </li>\n      <li>\n        <a href=\"#\" target=\"_blank\">OpenTSDB</a>\n      </li>\n    </ul>\n  </div>\n</div>",
           "style": {},
-          "title": "Documentation Links"
+          "title": "3LOQ-Habitual Documentation Links"
         },
         {
           "id": 3,

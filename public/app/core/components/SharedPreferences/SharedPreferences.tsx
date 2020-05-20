@@ -21,7 +21,7 @@ export interface State {
 
 const themes = [
   { value: '', label: 'Default' },
-  { value: 'dark', label: 'Dark' },
+  { value: 'light', label: 'Dark' },
   { value: 'light', label: 'Light' },
 ];
 
