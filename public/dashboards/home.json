@@ -2,24 +2,30 @@
   "links": [],
   "panels": [
     {
+      "content": "<div class=\"dashboard-header\">\n  <span>Welcome to 3LOQ-Habitual</span>\n</div>",
       "datasource": null,
+      "editable": true,
       "gridPos": {
-        "h": 3,
+        "h": 2,
         "w": 24,
         "x": 0,
         "y": 0
       },
       "id": 1,
+      "links": [],
+      "mode": "html",
+      "options": {},
+      "style": {},
       "title": "",
-      "transparent": false,
-      "type": "welcome"
+      "transparent": true,
+      "type": "text"
     },
     {
       "datasource": null,
       "folderId": 0,
       "gridPos": {
         "h": 15,
-        "w": 12,
+        "w": 11,
         "x": 0,
         "y": 4
       },
@@ -35,22 +41,6 @@
       "tags": [],
       "title": "Dashboards",
       "type": "dashlist"
-    },
-    {
-      "datasource": null,
-      "gridPos": {
-        "h": 15,
-        "w": 12,
-        "x": 12,
-        "y": 4
-      },
-      "id": 4,
-      "links": [],
-      "options": {
-        "feedUrl": "https://grafana.com/blog/news.xml"
-      },
-      "title": "Latest from the blog",
-      "type": "news"
     }
   ],
   "schemaVersion": 22,

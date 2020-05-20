@@ -98,7 +98,7 @@ func (p *BackendPlugin) start(ctx context.Context) error {
 			}
 		}
 	} else {
-		p.logger.Warn("Plugin uses a deprecated version of Grafana's backend plugin system which will be removed in a future release. " +
+		p.logger.Warn("Plugin uses a deprecated version of 3LOQ-Habitual's backend plugin system which will be removed in a future release. " +
 			"Consider upgrading to a newer plugin version or reach out to the plugin repository/developer and request an upgrade.")
 		raw, err := rpcClient.Dispense(p.id)
 		if err != nil {

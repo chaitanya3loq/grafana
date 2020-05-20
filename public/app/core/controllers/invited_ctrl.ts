@@ -13,7 +13,7 @@ export class InvitedCtrl {
       main: {
         icon: 'grafana',
         text: 'Invite',
-        subTitle: 'Register your Grafana account',
+        subTitle: 'Register your G3LOQ-Habitualrafana account',
         breadcrumbs: [{ title: 'Login', url: 'login' }],
       },
     };
